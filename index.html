@@ -1,0 +1,154 @@
+<html>
+    <head>
+        <title>TBOS Registration form</title>
+        <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon"  href="oak fav.ico">
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        <style>
+            body{
+            background-color: rgb(216, 233, 233);
+            font-family:poppins;
+        }
+            .header{
+                background-image:url("images/tbos.png");
+                background-repeat: none;
+                background-size: cover;
+                text-align: center;
+                color:white;
+               margin: 0%;
+                overflow: auto;
+                display: block;
+                padding: 20px 10px;
+                width: 100%;
+  
+            }
+            .design{ 
+                background-color: rgb(134, 134, 133);
+                color: white;
+                border-radius: 5px;
+                border: skyblue 1px solid;
+                border-bottom:skyblue 3px solid;
+                border-top:skyblue 3px solid;
+                
+               
+            }
+            .main{text-transform: capitalize;}
+            input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing: border-box;
+  font-family: poppins;
+
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 10px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: poppins;
+}
+
+input[type=submit]:hover {
+  background-color: #1e7923;
+}
+textarea{
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+.footer{
+    text-align: center;
+    align-items: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #363636;
+    height: auto;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #fff;
+}
+a{
+    color: rgb(116, 116, 116);
+    text-decoration: none;
+    font-size: 12px;
+    padding-top: 10px;
+}
+a:hover{
+    color: #fff;
+}
+        </style>
+    </head>
+    <body>
+        <div class="header">
+        <img src="oaklogo.png" width="70px" height="70px">
+        <h1 style="color:rgb(0, 0, 0); font-size: 50px;">REGISTER</h1>
+        <marquee><P style="color:rgb(0, 0, 0)">Register now for summer camp</P></marquee>
+        </div>
+        <div class='main'>
+            <form action="mailto:info@thebroadoakschools.com" method="post" enctype="text/plain">
+               
+                <fieldset>
+                    <legend>
+                       <b>PERSONAL INFORMATION</b>
+                    </legend>
+                    First name:&nbsp;<input type="text" name="first name"  class="design" /required><br><br>
+                    middle name:&nbsp;<input type="text" name="middle name" class="design" /required><br><br>
+                    last name:&nbsp;<input type="text" name="last name" class="design"/required><br><br>
+                    Gender:&nbsp;<select name="gender" class="design">
+                        <option>female</option>
+                        <option>male</option>
+                    </select><br><br>
+                    Date of birth:&nbsp;<input type="date" name="DOB" class="design"><br><br>
+                    Religion:&nbsp;<select name="Religion" class="design">
+                        <option>Christianity</option>
+                        <option>Islam</option>
+                        <option>Other</option>
+                    </select><br><br>
+                    <label for="id">Phone number:</label>
+                    &nbsp;<input type="number" name="tel no." id="id" class="design" /required><br><br>
+                    Email:&nbsp;<input type="Email" name="Email" class="design"/required><br><br>
+                    passcode:&nbsp;<input type="password" name="pass" class="design"/required><br><br>
+                </fieldset>
+                <fieldset>
+                    <legend><b>Courses</legend></b>
+                    Courses:&nbsp;<select name="Courses" class="design">
+                        <option value="courses">Music</option>
+                        <option value="courses">Coding</option>
+                        <option value="courses">Hair making</option>
+                        <option value="courses">Bead making</option>
+                        <option value="courses">Cosmetics</option>
+                        <option value="courses">One on one tutoring</option>
+                        <option value="courses">Tie and dye</option>
+                        <option value="courses">Soap making</option>
+                    </select><br><br>
+                    Why do you have interest in this skill?<br>
+                    <textarea cols="50" rows="5" class="design"></textarea>
+                </fieldset>
+                <hr>
+                <input type="submit">
+            </form>
+            </div>
+        <div class="footer">
+            <h3>TBOS 2023</h3>
+            <p style="font-size: 12px;padding-bottom: 10px; padding-top: 10px;">The Broadoak Schools is one of the best cambridge schools in Owerri.<br>
+                We aim to help children become literate and numerate at the earliest possible age <br>and provide learning support for those with particular difficulties.</p>
+        
+            <a href="https://www.facebook.com/profile.php?id=100087504558162&mibextid=ZbWKwL">Facebook</a> &nbsp;&nbsp;&nbsp;<a href="https://instagram.com/the_broadoakschools?igshid=MzNlNGNkZWQ4Mg==">Instagram</a>&nbsp;&nbsp;&nbsp;<a href="http://thebroadoakschools.com/">Website</a>
+            <p>Copyright &copy; 2023 TBOS</p>
+        </div>
+
+    </body>
+</html>
